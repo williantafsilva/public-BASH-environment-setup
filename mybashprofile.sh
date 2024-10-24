@@ -205,6 +205,8 @@ alias lastslurm='less $(echo ${PATHTOMYSLURM}/$(ls -Art ${PATHTOMYSLURM}/ | tail
 alias interactivejob='salloc -A ${PROJECT_ID} -p shared -c 1 -t 06:00:00 ' 
 #Log off from all active sessions.
 alias logoffall='pkill -u ${USER}'
+#Full host name.
+alias hostname='hostname -f'
 
 ############################################################################
 #FUNCTIONS:
